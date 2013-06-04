@@ -1,0 +1,9 @@
+LIBRARY      "hotkey"
+DESCRIPTION  'Hotkey Hook by [volk]'
+
+EXPORTS
+sys_add_keyboard_hook
+sys_remove_keyboard_hook
+
+SECTIONS
+.hook_data READ WRITE SHARED

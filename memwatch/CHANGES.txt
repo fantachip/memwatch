@@ -1,0 +1,12 @@
+[2008-Jan-20 Version 0.1.1]
+(*) Fixed return value check of WriteProcessMemory()
+(*) Added confirmation dialog when exiting main window when profile was
+modified
+(*) Fixed crashes at exit associated with keyboard callback Added tooltips to
+controls and menu items
+(*) Improved parser now ignores whitespaces and fails to compile expressions
+like [0x1234+0x1234] (which are incorrect - this program is a memory monitor,
+not a calculator ;))
+
+[2008-Jan-19 First release - Version 0.1]
+This was the first release of this application.
